@@ -1,6 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author lei
+ * The DFD class contains all related methods for calculating Discrete Frechet Distance
+ * Use method df and give two curves' coordinates to get the distance
+ * The input should follow the format:
+ * x = "2,3;3,4;4,4;3,5;4,5;5,5"
+ * y = "2,4;3,5;1,4;2,5;4,6;6,6"
+*/
 public class DFD {
 	private List<float[]> p = new ArrayList<>();
 	private List<float[]> q = new ArrayList<>();
